@@ -49,7 +49,7 @@ rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/mast
 	```
 
 4) Setup JMX Access to Server Node. For example can use this howto: 
-* [JMX Server Node]https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
+* https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
 * Me setup work only with ManagementRealm.
 5) Import template.
 6) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: 
