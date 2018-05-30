@@ -2,6 +2,20 @@
 
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (domain, standalone not tested)
 
+Static item:
+JMX Wildfly Memory
+JMX Wildfly Runtime
+JMX Wildfly Threading
+JMX Wildlfy Classes
+JMX Wildlfy Server
+
+Discover:
+Datasource JDBC
+Datasource POOL
+Garbage Collector
+Memory Pool
+Server
+
 Minimal requirements and installation:
 1) Zabbix 3.4+
 2) Installed fixed Zabbix Java Gateway. From this repo. In future zabbix maybe have own fix. I send me fix in to zabbix.
@@ -16,4 +30,6 @@ Minimal requirements and installation:
 3) Setup JMX Access to Server Node. For example can use this howto https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
 4) Imported template.
 5) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: Disable datasource discovery ^(ExampleDS)$	[Result is FALSE]
+6) You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.
 
+This is Alfa version, please give me feadback if you find bug or need some another check.
