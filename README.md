@@ -21,13 +21,12 @@ Server
 ```
 Minimal requirements and installation:
 1) Zabbix 3.4+
-2) Installed fixed Zabbix Java Gateway. From this repo. In future zabbix maybe have own fix. I send me fix in to zabbix.
-	* If you don't have CentOS 7 or RHEL 7 I fix in source, you need make own rpm package.
+2) Installed fixed Zabbix Java Gateway. From this repo. In future zabbix maybe have own fix. I sent the info to the zabbix.
+	* If you don't have CentOS 7 or RHEL 7, you need make own rpm package.
 	* I change in this file is: 
 	```
 	/root/rpmbuild/SOURCES/zabbix-3.4.9/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
 	```
-	
 	* We started change on the line 274:
 	```
 	274	// This is changed for replace special characters
@@ -40,14 +39,15 @@ Minimal requirements and installation:
 	```
 	systemctl restart zabbix-java-gateway.service
 	```
-	Check if it si lib loaded
+	Check if jar file is loaded
 	```
 	ps xauf | grep jboss-client.jar
 	```
 
 4) Setup JMX Access to Server Node. For example can use this howto: 
 * [JMX Server Node]https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
-5) Imported template.
+* Me setup work only with ManagementRealm.
+5) Import template.
 6) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: 
 ```
 Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
@@ -60,4 +60,4 @@ Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 
 ## Acknowledgments
 
-### This is Alfa version, please give me feadback if you find bug or need some another check. Me mail is info"@"tomashermanek, twitter is: hermanekt.
+### This is Alfa version, please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
