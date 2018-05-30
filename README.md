@@ -1,6 +1,6 @@
 # Zabbix_wildfly_eap_jboss_monitoring
 
-This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (domain, standalone not tested)
+This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (standalone not tested)
 Tested with Wildfy 12
 
 Static item:
