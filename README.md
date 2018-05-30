@@ -47,5 +47,6 @@ Minimal requirements and installation:
 
 * **Tomas Hermanek** - *Initial work* - [hermanekt](https://github.com/hermanekt)
 
+## Acknowledgments
 
 ### This is Alfa version, please give me feadback if you find bug or need some another check. Me mail is info"@"tomashermanek, twitter is: hermanekt.
