@@ -1,6 +1,6 @@
 # Zabbix_wildfly_eap_jboss_monitoring
 
-*This is Alfa version, please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
+* This is Alfa version, please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (standalone not tested)
 Tested with Wildfy 12
