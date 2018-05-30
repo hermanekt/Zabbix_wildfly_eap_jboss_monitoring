@@ -37,4 +37,4 @@ Minimal requirements and installation:
 6) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 7) You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.
 
-# This is Alfa version, please give me feadback if you find bug or need some another check. Me mail is info@tomashermanek, twitter is: hermanekt.
+# This is Alfa version, please give me feadback if you find bug or need some another check. Me mail is info"@"tomashermanek, twitter is: hermanekt.
