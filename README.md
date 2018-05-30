@@ -38,10 +38,14 @@ Minimal requirements and installation:
 	Restart Zabbix Java gateway: systemctl restart zabbix-java-gateway.service
 	Check if it si lib loaded: ps xauf | grep jboss-client.jar
 
-4) Setup JMX Access to Server Node. For example can use this howto https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
+4) Setup JMX Access to Server Node. For example can use this howto: 
+[JMX Server Node]https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node.
 5) Imported template.
-6) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
-7) You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.
+6) Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example: 
+```
+Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
+```
+7) You need change macros in Template ###{$WILDFLY.PASS}, ###{$WILDFLY.USER} or you can overload in hosts.
 
 ## Authors
 
