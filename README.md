@@ -19,7 +19,7 @@ Garbage Collector
 Memory Pool
 Server
 ```
-###Minimal requirements and installation:###
+### Minimal requirements and installation:
 1) **Zabbix 3.4+**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
 ```
