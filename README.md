@@ -4,10 +4,10 @@ This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (doma
 Tested with Wildfy 12
 
 Static item:
-JMX Wildfly Memory
-JMX Wildfly Runtime
-JMX Wildfly Threading
-JMX Wildlfy Classes
+n/JMX Wildfly Memory
+n/JMX Wildfly Runtime
+n/JMX Wildfly Threading
+n/JMX Wildlfy Classes
 JMX Wildlfy Server
 
 Discover:
