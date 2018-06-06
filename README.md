@@ -27,7 +27,7 @@ Server
 1) **Zabbix 3.4+**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
 ```
-rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-3.4.9-1.el7.x86_64.rpm
+rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-3.4.10-1.el7.x86_64.rpm
 ```
  * In future zabbix maybe have own fix. I sent the info to the zabbix.
 	* If you don't have CentOS 7 or RHEL 7, you need make own rpm package.
