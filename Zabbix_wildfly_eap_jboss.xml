@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-05-30T09:30:44Z</date>
+    <date>2018-06-07T10:45:49Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -5173,7 +5173,7 @@
                             <tags/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},TimedOut].avg(300)}&gt;0</expression>
+                            <expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},TimedOut].diff(300)}&gt;0</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
                             <name>Datasource {#JMXDATA_SOURCE} connection is timeout on {HOST.NAME}</name>
