@@ -73,7 +73,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -114,7 +114,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -155,7 +155,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -196,7 +196,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -237,7 +237,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -278,7 +278,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -319,7 +319,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -360,7 +360,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -401,7 +401,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -442,7 +442,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -483,7 +483,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -524,7 +524,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -570,7 +570,7 @@
                             <params>100</params>
                         </step>
                     </preprocessing>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -611,7 +611,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -657,7 +657,7 @@
                             <params>0.001</params>
                         </step>
                     </preprocessing>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -698,7 +698,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -739,7 +739,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -780,7 +780,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -821,7 +821,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -862,7 +862,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -903,7 +903,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -944,7 +944,7 @@
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                     <master_item/>
                 </item>
                 <item>
@@ -1105,7 +1105,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1147,7 +1147,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1189,7 +1189,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1231,7 +1231,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1273,7 +1273,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1315,7 +1315,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1357,7 +1357,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1399,7 +1399,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1441,7 +1441,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1483,7 +1483,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1525,7 +1525,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1567,7 +1567,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1609,7 +1609,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1651,7 +1651,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1693,7 +1693,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1735,7 +1735,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1777,7 +1777,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1819,7 +1819,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1861,7 +1861,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1903,7 +1903,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
@@ -1998,7 +1998,7 @@
                     </trigger_prototypes>
                     <graph_prototypes/>
                     <host_prototypes/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                 </discovery_rule>
                 <discovery_rule>
                     <name>Garbage Collector</name>
@@ -2066,7 +2066,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Garbage Collector</name>
@@ -2113,7 +2113,7 @@
                                     <params>0.001</params>
                                 </step>
                             </preprocessing>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Garbage Collector</name>
@@ -2175,7 +2175,7 @@
                         </graph_prototype>
                     </graph_prototypes>
                     <host_prototypes/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                 </discovery_rule>
                 <discovery_rule>
                     <name>Memory Pool</name>
@@ -2243,7 +2243,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Memory Pool</name>
@@ -2285,7 +2285,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Memory Pool</name>
@@ -2327,7 +2327,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Memory Pool</name>
@@ -2396,7 +2396,7 @@
                         </graph_prototype>
                     </graph_prototypes>
                     <host_prototypes/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                 </discovery_rule>
                 <discovery_rule>
                     <name>Datasource JDBC</name>
@@ -2471,7 +2471,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2513,7 +2513,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2555,7 +2555,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2597,7 +2597,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2639,7 +2639,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2681,7 +2681,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource Cache</name>
@@ -2803,7 +2803,7 @@
                         </graph_prototype>
                     </graph_prototypes>
                     <host_prototypes/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                 </discovery_rule>
                 <discovery_rule>
                     <name>Datasource POOL</name>
@@ -2878,7 +2878,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -2920,7 +2920,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -2962,7 +2962,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3004,7 +3004,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3046,7 +3046,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3088,7 +3088,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3130,7 +3130,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3172,7 +3172,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3214,7 +3214,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3256,7 +3256,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3298,7 +3298,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3340,7 +3340,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3382,7 +3382,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3424,7 +3424,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3466,7 +3466,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3508,7 +3508,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3550,7 +3550,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3592,7 +3592,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3634,7 +3634,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3676,7 +3676,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3718,7 +3718,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3760,7 +3760,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3802,7 +3802,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3844,7 +3844,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3886,7 +3886,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3928,7 +3928,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -3970,7 +3970,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4012,7 +4012,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4054,7 +4054,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4096,7 +4096,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4138,7 +4138,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4180,7 +4180,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4222,7 +4222,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4264,7 +4264,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4306,7 +4306,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4348,7 +4348,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4390,7 +4390,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4432,7 +4432,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4474,7 +4474,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4516,7 +4516,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4558,7 +4558,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4600,7 +4600,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4642,7 +4642,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4684,7 +4684,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4726,7 +4726,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4768,7 +4768,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4810,7 +4810,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4852,7 +4852,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4894,7 +4894,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4936,7 +4936,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -4978,7 +4978,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -5020,7 +5020,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -5062,7 +5062,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -5104,7 +5104,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -5146,7 +5146,7 @@
                             <valuemap/>
                             <logtimefmt/>
                             <preprocessing/>
-                            <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                            <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                             <application_prototypes>
                                 <application_prototype>
                                     <name>JMX Wildfly Datasource</name>
@@ -5338,7 +5338,7 @@
                         </graph_prototype>
                     </graph_prototypes>
                     <host_prototypes/>
-                    <jmx_endpoint>service:jmx:remote://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
+                    <jmx_endpoint>service:jmx:{$JMX.PROTOCOL}://{HOST.CONN}:{HOST.PORT}</jmx_endpoint>
                 </discovery_rule>
             </discovery_rules>
             <httptests/>
@@ -5350,6 +5350,10 @@
                 <macro>
                     <macro>{$WILDFLY.USER}</macro>
                     <value>zabbix</value>
+                </macro>
+                <macro>
+                    <macro>{$JMX.PROTOCOL}</macro>
+                    <value>remote+http</value>
                 </macro>
             </macros>
             <templates/>

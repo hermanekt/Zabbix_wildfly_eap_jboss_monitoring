@@ -1,11 +1,11 @@
 # Zabbix_wildfly_eap_jboss_monitoring
 
-* This is Alfa version, please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
+* Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
 * Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4583
 
-This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (standalone not tested)
-Tested with Wildfy 12
+This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (Domain,Standalone)
+Tested with Wildfy 12,13
 
 Static item:
 ```
@@ -41,7 +41,7 @@ rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/mast
 	275	//String key = property.getKey().toUpperCase();
 	276	String key = property.getKey().toUpperCase().replace('-', '_’);
 	```
-3) **Copy jboss-client.jar from /wildfly-12/bin/client in to directory /usr/share/zabbix-java-gateway/lib**
+3) **Copy jboss-client.jar from /(wildfly,EAP,Jboss,AS)/bin/client in to directory /usr/share/zabbix-java-gateway/lib**
 	
 	Restart Zabbix Java gateway
 	```
@@ -52,9 +52,17 @@ rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/mast
 	ps xauf | grep jboss-client.jar
 	```
 
+## DOMAIN
 4) **Setup JMX Access to Server Node. For example can use this howto:** 
 * [JMX_Access_to_Domain_Mode_EAP_7_Server_Node](https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node)
 * Me setup work only with ManagementRealm.
+* Maybe you need change this macro in template: {$JMX.PROTOCOL}
+
+## STANDALONE
+* [JMX_Access_standalone](https://dzone.com/articles/remote-jmx-access-wildfly-or)
+* Port is 9990, test connect with jconsole
+* Maybe you need change this {$JMX.PROTOCOL} macro in template
+
 5) **Import template.**
 6) **Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:** 
 ```
