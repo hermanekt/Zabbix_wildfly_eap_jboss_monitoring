@@ -4,6 +4,8 @@
 
 * Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4583
 
+* Debian, CentOS, RHEL packages
+
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (Domain,Standalone)
 Tested with Wildfy 12,13
 
