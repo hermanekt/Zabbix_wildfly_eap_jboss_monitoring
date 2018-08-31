@@ -2,9 +2,9 @@
 
 * Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
-* Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4583
+* Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4209
 
-* Debian, CentOS, RHEL packages
+* Debian, Ubuntu, CentOS, RHEL packages
 
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (Domain,Standalone)
 Tested with Wildfy 12,13
@@ -32,7 +32,7 @@ Server
 rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-3.4.11-1.el7.x86_64.rpm
 ```
  * In future zabbix maybe have own fix. I sent the info to the zabbix.
-	* If you don't have CentOS 7 or RHEL 7, you need make own rpm package.
+	* If you don't have Debin, Ubuntu, CentOS 7 or RHEL 7, you need make own rpm package.
 	* I change in this file is: 
 	```
 	/root/rpmbuild/SOURCES/zabbix-3.4.11/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
