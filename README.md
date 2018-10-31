@@ -7,7 +7,7 @@
 * Debian, Ubuntu, CentOS, RHEL packages
 
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (Domain,Standalone)
-Tested with Wildfy 12,13
+Tested with Wildfy 12,13,14
 
 Static item:
 ```
@@ -28,11 +28,19 @@ Server
 ### Minimal requirements and installation:
 1) **Zabbix 3.4+**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
+
+* Centos, RHEL
 ```
-rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-3.4.11-1.el7.x86_64.rpm
+rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-4.0.1-1.el7.x86_64.rpm
 ```
+
+* Debian, Ubuntu
+```
+curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway_4.0.1-1+jessie_all.deb && dpkg -i zabbix-java-gateway_4.0.1-1+jessie_all.deb
+```
+
  * In future zabbix maybe have own fix. I sent the info to the zabbix.
-	* If you don't have Debin, Ubuntu, CentOS 7 or RHEL 7, you need make own rpm package.
+	* If you don't have Debian, Ubuntu, CentOS 7 or RHEL 7, you need make own package.
 	* I change in this file is: 
 	```
 	/root/rpmbuild/SOURCES/zabbix-3.4.11/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
@@ -47,7 +55,7 @@ rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/mast
 	
 	Restart Zabbix Java gateway
 	```
-	systemctl restart zabbix-java-gateway.service
+	systemctl restart zabbix-java-gateway
 	```
 	Check if jar file is loaded
 	```
@@ -65,8 +73,11 @@ rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/mast
 * Port is 9990, test connect with jconsole
 * Maybe you need change this {$JMX.PROTOCOL} macro in template
 
-5) **Import template.**
-6) **Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:** 
+5) **Import template. In repo is 2 remplates for 3.4 and 4.0+**
+6) **If you have zabbix 3.4. Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:**
+
+**If you have version 4.0+ and you want exclude some datasources you can use filers in discovery rule inside template in template is for example added ExampleDS datasource. **
+
 ```
 Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 ```
