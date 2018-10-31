@@ -43,7 +43,7 @@ curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/m
 	* If you don't have Debian, Ubuntu, CentOS 7 or RHEL 7, you need make own package.
 	* I change in this file is: 
 	```
-	/root/rpmbuild/SOURCES/zabbix-3.4.11/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
+	/root/rpmbuild/SOURCES/zabbix-4.0.1/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
 	```
 	* We started change on the line 274:
 	```
