@@ -75,12 +75,11 @@ curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/m
 
 5) **Import template. In repo is 2 remplates for 3.4 and 4.0+**
 6) **If you have zabbix 3.4. Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:**
-
-**If you have version 4.0+ and you want exclude some datasources you can use filers in discovery rule inside template in template is for example added ExampleDS datasource. **
-
 ```
 Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 ```
+**If you have version 4.0+ and you want exclude some datasources you can use filers in discovery rule inside template in template is for example added ExampleDS datasource.**
+
 7) **You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.**
 
 ## Authors
