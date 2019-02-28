@@ -31,19 +31,19 @@ Server
 
 * Centos, RHEL
 ```
-rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-4.0.1-1.el7.x86_64.rpm
+rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-4.0.5-1.el7.x86_64.rpm
 ```
 
 * Debian, Ubuntu
 ```
-curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway_4.0.1-1+jessie_all.deb && dpkg -i zabbix-java-gateway_4.0.1-1+jessie_all.deb
+curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway_4.0.5-1+stretch_all.deb && dpkg -i zabbix-java-gateway_4.0.5-1+stretch_all.deb
 ```
 
  * In future zabbix maybe have own fix. I sent the info to the zabbix.
 	* If you don't have Debian, Ubuntu, CentOS 7 or RHEL 7, you need make own package.
 	* I change in this file is: 
 	```
-	/root/rpmbuild/SOURCES/zabbix-4.0.1/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
+	/root/rpmbuild/SOURCES/zabbix-4.0.5/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
 	```
 	* We started change on the line 274:
 	```
