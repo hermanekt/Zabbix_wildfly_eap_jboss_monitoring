@@ -88,4 +88,4 @@ Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 
 ## Acknowledgments
 
-### This is Alfa version, please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
+### Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
