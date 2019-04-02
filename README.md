@@ -7,7 +7,7 @@
 * Debian, Ubuntu, CentOS, RHEL packages
 
 This is auto Discovery template for monitoring Wildfly, EAP, Jboss servers (Domain,Standalone)
-Tested with Wildfy 12,13,14
+Tested with Wildfy 12,13,14,15,16
 
 Static item:
 ```
@@ -31,19 +31,19 @@ Server
 
 * Centos, RHEL
 ```
-rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-4.0.5-1.el7.x86_64.rpm
+rpm -i https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway-4.2.0-1.el7.x86_64.rpm
 ```
 
 * Debian, Ubuntu
 ```
-curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway_4.0.5-1+stretch_all.deb && dpkg -i zabbix-java-gateway_4.0.5-1+stretch_all.deb
+curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/master/zabbix-java-gateway_4.2.0-1+stretch_all.deb && dpkg -i zabbix-java-gateway_4.2.0-1+stretch_all.deb
 ```
 
  * In future zabbix maybe have own fix. I sent the info to the zabbix.
 	* If you don't have Debian, Ubuntu, CentOS 7 or RHEL 7, you need make own package.
 	* I change in this file is: 
 	```
-	/root/rpmbuild/SOURCES/zabbix-4.0.5/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
+	/root/rpmbuild/SOURCES/zabbix-4.2.0/src/zabbix_java/src/com/zabbix/gateway/JMXItemChecker.java
 	```
 	* We started change on the line 274:
 	```
@@ -73,12 +73,12 @@ curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/m
 * Port is 9990, test connect with jconsole
 * Maybe you need change this {$JMX.PROTOCOL} macro in template
 
-5) **Import template. In repo is 2 remplates for 3.4 and 4.0+**
+5) **Import template. In repo is 2 remplates for 3.4 and 4.+**
 6) **If you have zabbix 3.4. Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:**
 ```
 Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 ```
-**If you have version 4.0+ and you want exclude some datasources you can use filters in discovery rule inside template is for example added ExampleDS datasource.**
+**If you have version 4.+ and you want exclude some datasources you can use filters in discovery rule inside template is for example added ExampleDS datasource.**
 
 7) **You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.**
 
