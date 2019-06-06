@@ -2697,7 +2697,7 @@ Version 1.2</description>
                         <trigger_prototype>
                             <expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheAccessCount].last(0)}&lt;({Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheHitCount].last(0)}*0.5)</expression>
                             <recovery_mode>1</recovery_mode>
-                            <recovery_expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheAccessCount].last(0)}&lt;({Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheHitCount].last(0)}*0.6)</recovery_expression>
+                            <recovery_expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheAccessCount].last(0)}&gt;({Template JMX Wildlfy:jmx[{#JMXOBJ},PreparedStatementCacheHitCount].last(0)}*0.6)</recovery_expression>
                             <name>Datasource {#JMXDATA_SOURCE} cache hit is too low!</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
@@ -5162,7 +5162,7 @@ Version 1.2</description>
                         <trigger_prototype>
                             <expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},InUseCount].last(0)}&gt;({Template JMX Wildlfy:jmx[{#JMXOBJ},AvailableCount].last(0)}*0.9)</expression>
                             <recovery_mode>1</recovery_mode>
-                            <recovery_expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},InUseCount].last(0)}&gt;({Template JMX Wildlfy:jmx[{#JMXOBJ},AvailableCount].last(0)}*0.7)</recovery_expression>
+                            <recovery_expression>{Template JMX Wildlfy:jmx[{#JMXOBJ},InUseCount].last(0)}&lt;({Template JMX Wildlfy:jmx[{#JMXOBJ},AvailableCount].last(0)}*0.7)</recovery_expression>
                             <name>Datasource {#JMXDATA_SOURCE} 90% connection is in use {HOST.NAME}</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
@@ -5367,7 +5367,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.7)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
             <name>70% Heap Memory used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5383,7 +5383,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.7)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
             <name>70% Non-Heap Memory used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5399,7 +5399,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.7)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.6)</recovery_expression>
             <name>70% Opened File Descriptor Count used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5415,7 +5415,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&gt;70</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&gt;60</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&lt;60</recovery_expression>
             <name>70% Process CPU Load on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5431,7 +5431,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.9)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.used].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,HeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
             <name>90% Heap Memory used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5447,7 +5447,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.9)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.used].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=Memory&quot;,NonHeapMemoryUsage.max].last(0)}*0.6)</recovery_expression>
             <name>90% Non-Heap Memory used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5463,7 +5463,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.9)</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&gt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.6)</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,OpenFileDescriptorCount].last(0)}&lt;({Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,MaxFileDescriptorCount].last(0)}*0.6)</recovery_expression>
             <name>90% Opened File Descriptor Count used on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -5479,7 +5479,7 @@ Version 1.2</description>
         <trigger>
             <expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&gt;90</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&gt;60</recovery_expression>
+            <recovery_expression>{Template JMX Wildlfy:jmx[&quot;java.lang:type=OperatingSystem&quot;,ProcessCpuLoad].avg(300)}&lt;60</recovery_expression>
             <name>90% Process CPU Load on {HOST.NAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
