@@ -61,9 +61,8 @@ curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/m
 	```
 	ps xauf | grep jboss-client.jar
 	```
-
-## DOMAIN
 4) **Setup JMX Access to Server Node. For example can use this howto:** 
+## DOMAIN
 * [JMX_Access_to_Domain_Mode_EAP_7_Server_Node](https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node)
 * Me setup work only with ManagementRealm.
 * Maybe you need change this macro in template: {$JMX.PROTOCOL}
