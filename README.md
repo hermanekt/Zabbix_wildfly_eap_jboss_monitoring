@@ -26,7 +26,7 @@ Memory Pool
 Server
 ```
 ### Minimal requirements and installation:
-**NEW Template:(Zabbix_GET_44_wildfly_eap_jboss.xml)**
+## NEW Template:(Zabbix_GET_44_wildfly_eap_jboss.xml)
 1) **Zabbix 4.4+**
 2) **Copy jboss-client.jar from /(wildfly,EAP,Jboss,AS)/bin/client in to directory /usr/share/zabbix-java-gateway/lib**
 
@@ -51,7 +51,7 @@ Server
 
 4) **Import template from this repository (Zabbix_GET_44_wildfly_eap_jboss.xml)**
 
-**OLD Template:**
+## OLD Template:
 1) **Zabbix 3.4+ to 4.2**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
 
