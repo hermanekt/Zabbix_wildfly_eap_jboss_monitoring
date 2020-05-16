@@ -53,6 +53,8 @@ Server
 5) **You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.**
 
 
+
+
 ## OLD Template:
 1) **Zabbix 3.4 to 4.2**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
