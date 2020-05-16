@@ -2,7 +2,7 @@
 
 * Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
-* Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4209
+* Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4209 **fixed in version 4.4!!!**
 
 * Debian, Ubuntu, CentOS, RHEL packages
 
@@ -26,7 +26,33 @@ Memory Pool
 Server
 ```
 ### Minimal requirements and installation:
-1) **Zabbix 3.4+**
+**NEW Template:(Zabbix_GET_44_wildfly_eap_jboss.xml)**
+1) **Zabbix 4.4+**
+2) **Copy jboss-client.jar from /(wildfly,EAP,Jboss,AS)/bin/client in to directory /usr/share/zabbix-java-gateway/lib**
+
+        Restart Zabbix Java gateway
+        ```
+        systemctl restart zabbix-java-gateway
+        ```
+        Check if jar file is loaded
+        ```
+        ps xauf | grep jboss-client.jar
+        ```
+3) **Setup JMX Access to Server Node. For example can use this howto:**
+## DOMAIN
+* [JMX_Access_to_Domain_Mode_EAP_7_Server_Node](https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node)
+* Me setup work only with ManagementRealm.
+* Maybe you need change this macro in template: {$JMX.PROTOCOL}
+
+## STANDALONE
+* [JMX_Access_standalone](https://dzone.com/articles/remote-jmx-access-wildfly-or)
+* Port is 9990, test connect with jconsole
+* Maybe you need change this {$JMX.PROTOCOL} macro in template
+
+4) **Import template from this repository (Zabbix_GET_44_wildfly_eap_jboss.xml)**
+
+**OLD Template:**
+1) **Zabbix 3.4+ to 4.2**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
 
 * Centos, RHEL
