@@ -2,7 +2,7 @@
 
 * Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
-* Known zabbix java gateway BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4209 **fixed in version 4.4!!!**
+* BUG with discovery: https://support.zabbix.com/browse/ZBXNEXT-4209 **fixed in version 4.4!!!**
 
 * Debian, Ubuntu, CentOS, RHEL packages
 
@@ -54,7 +54,7 @@ Server
 
 
 ## OLD Template:
-1) **Zabbix 3.4+ to 4.2**
+1) **Zabbix 3.4 to 4.2**
 2) **Install fixed Zabbix Java Gateway. From this repo.**
 
 * Centos, RHEL
@@ -100,13 +100,11 @@ curl -sLO https://github.com/hermanekt/Zabbix_wildfly_eap_jboss_monitoring/raw/m
 * Port is 9990, test connect with jconsole
 * Maybe you need change this {$JMX.PROTOCOL} macro in template
 
-5) **Import template. In repo is 2 remplates for 3.4 and 4.+**
-6) **If you have zabbix 3.4. Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:**
+5) **Import template from this repository (Zabbix_wildfly_eap_jboss.xml)**
+6) **Set Regular expression with name "Disable datasource discovery" for exclude some datasources from discovery For example:**
 ```
 Disable datasource discovery ^(ExampleDS)$  [Result is FALSE]
 ```
-**If you have version 4.+ and you want exclude some datasources you can use filters in discovery rule inside template is for example added ExampleDS datasource.**
-
 7) **You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.**
 
 ## Authors
