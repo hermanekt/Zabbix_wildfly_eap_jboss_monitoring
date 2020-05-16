@@ -30,14 +30,14 @@ Server
 1) **Zabbix 4.4+**
 2) **Copy jboss-client.jar from /(wildfly,EAP,Jboss,AS)/bin/client in to directory /usr/share/zabbix-java-gateway/lib**
 
-        Restart Zabbix Java gateway
-        ```
-        systemctl restart zabbix-java-gateway
-        ```
-        Check if jar file is loaded
-        ```
-        ps xauf | grep jboss-client.jar
-        ```
+ 	Restart Zabbix Java gateway
+	```
+	systemctl restart zabbix-java-gateway
+	```
+	Check if jar file is loaded
+	```
+	ps xauf | grep jboss-client.jar
+	```
 3) **Setup JMX Access to Server Node. For example can use this howto:**
 ## DOMAIN
 * [JMX_Access_to_Domain_Mode_EAP_7_Server_Node](https://kb.novaordis.com/index.php/JMX_Access_to_Domain_Mode_EAP_7_Server_Node)
