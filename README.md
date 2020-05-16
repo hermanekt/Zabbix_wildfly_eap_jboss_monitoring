@@ -50,6 +50,8 @@ Server
 * Maybe you need change this {$JMX.PROTOCOL} macro in template
 
 4) **Import template from this repository (Zabbix_GET_44_wildfly_eap_jboss.xml)**
+5) **You need change macros in Template {$WILDFLY.PASS}, {$WILDFLY.USER} or you can overload in hosts.**
+
 
 ## OLD Template:
 1) **Zabbix 3.4+ to 4.2**
