@@ -1,4 +1,10 @@
 # Zabbix_wildfly_eap_jboss_monitoring
+> ## ⚠️ Repository archived – use the **official WildFly template** instead
+> 
+> Active development of this project has stopped.  
+> Please migrate to the official Zabbix WildFly integration, available here:
+>
+> **https://www.zabbix.com/integrations/wildfly**
 
 * Please give me feadback if you find bug or need some another check. Email is info"@"tomashermanek.cz, twitter is: hermanekt.
 
